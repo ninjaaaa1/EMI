@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Smart EMI Calculator</h2>
+        <label>Loan Type:</label>
+        <select id="loanType">
+            <option value="home">Home Loan</option>
+            <option value="car">Car Loan</option>
+            <option value="personal">Personal Loan</option>
+        </select>
+        
+        <label>Principal Amount (₹):</label>
+        <input type="number" id="principal" placeholder="e.g. 500000">
+        
+        <label>Annual Interest Rate (%):</label>
+        <input type="number" id="rate" placeholder="e.g. 8.5">
+        
+        <label>Tenure (Years):</label>
+        <input type="number" id="tenure" placeholder="e.g. 15">
+        
+        <button onclick="calculateEMI()">Calculate EMI</button>
+        
+        <h3 id="emiResult"></h3>
+        <div id="crossSellBox" class="cross-sell-hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

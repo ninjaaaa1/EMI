@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; padding-top: 50px; }
+.calculator-container { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 350px; }
+input, select, button { width: 100%; margin: 8px 0 15px; padding: 10px; box-sizing: border-box; }
+button { background-color: #b30000; color: white; border: none; font-weight: bold; cursor: pointer; }
+.cross-sell-hidden { display: none; }
+.cross-sell-active { display: block; margin-top: 20px; padding: 15px; background: #fff3cd; border-left: 4px solid #ffc107; font-size: 0.9em; }
